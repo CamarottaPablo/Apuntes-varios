@@ -29,7 +29,7 @@ let estudiantes = [
     {nombre: 'Jane', promedio: 7, aprobado: true},
     {nombre: 'June', promedio: 3, aprobado: false},
 ]
-let aprobados = estudiantes.filter(function(estado) {
+let aprobados = estudiantes.filter(function(aprobado) {
     return aprobado = true
 })
 let desaprobados =  estudiantes.filter(function(estado) {
