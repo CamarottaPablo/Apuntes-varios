@@ -58,11 +58,6 @@ let concesionaria = {
         } else {
             return false;
         }
-    },
-    autosQuePuedeComprar: function (persona) {
-        if ((persona = this.puedeComprar) && (persona = this.autosParaLaVenta)) {
-            return concesionaria.autos
-        }
     }
 }
 let persona = [{
@@ -82,4 +77,4 @@ console.log(concesionaria.autosNuevos())
 console.log(concesionaria.autosNuevos())
 console.log(concesionaria.listaDeVentas())
 console.log(concesionaria.totalDeVentas())
-console.log(concesionaria.autosQuePuedeComprar("Jorge"))
+console.log(concesionaria.puedeComprar("JJK116", "Jorge"))
