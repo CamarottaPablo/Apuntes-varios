@@ -60,11 +60,10 @@ let concesionaria = {
         }
     },
     autosQuePuedeComprar: function (persona) {
-        if ((persona = this.puedeComprar) && (persona = this.autosParaLaVenta)) {
-            return concesionaria.autos
+        if (this.autosParaLaVenta = true);
+        return this.autosParaLaVenta.map(x => x.puedeComprar = true);
         }
     }
-}
 let persona = [{
     nombre: "Juan",
     capacidadDePagoEnCuotas: 20000000,
